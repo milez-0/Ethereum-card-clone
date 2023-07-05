@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(13, 25, 43);
+    font-family: Outfit;
+    padding: 7%;
+    margin: 0;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contain-grid {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 340px;
+    min-width: 120px;
+}
+
+.card {
+    background-color: rgb(20, 37, 61);
+    height: auto;
+    padding: 4.8%;
+    border-radius: 20px;
+}
+
+.image {
+    min-width: 86px;
+    border-radius: 10px;
+    margin-bottom: 21px;
+}
+
+.glass-cube {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 29px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.15s;
+}
+
+h1:hover {
+    color: rgb(0, 255, 247);
+}
+
+.bulk {
+    color: rgb(139, 172, 218);
+    margin-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 0;
+    overflow: hidden;
+}
+
+.mini {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    align-items: center;
+}
+
+.current-value {
+    margin-bottom: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 255, 247);
+}
+
+.time-left {
+    color: rgb(139, 172, 218);
+    font-size: 14px;
+    text-align: end;
+    margin-bottom: 13px;
+}
+
+hr {
+    background-color: rgb(47, 65, 91);
+    height: 0.5px;
+    border: none;
+    margin-bottom: 17px;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.image-avatar {
+    width: 70%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 25px;
+    vertical-align: baseline;
+}
+
+.author-info {
+    margin-bottom: 0;
+    color: rgb(139, 172, 218);
+    font-size: 18px;
+}
+
+.foot {
+    color: white;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.author-name {
+    color: white;
+}
+
+.author-name:hover {
+    color: rgb(0, 255, 247);
+}
+
+a {
+    color: rgb(62, 82, 163);
+}
