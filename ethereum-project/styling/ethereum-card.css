@@ -35,6 +35,7 @@ p {
     align-items: center;
     justify-content: center;
     visibility: hidden;
+    cursor: pointer;
 }
 
 .image-div:hover {
